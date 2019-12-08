@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Sulphur+Point&display=swap');
+*{
+	font-family: 'PT Sans', sans-serif;
+}
+
+body{
+	background-image: url(images/font2.jpg);
+	background-repeat: no-repeat;
+	background-size:1400px 1200px ;
+	background-position: auto;
+}
+
+input {
+	border-radius: 8px;
+    width: 200px;
+    font-family: unset;
+    background-color: blue;
+    padding:6px 0 6px 0;
+	font:bold 13px Arial;
+	background:#f5f5f5;
+	color:#555;
+	border:1px solid #ccc;
+	box-shadow:1px 1px 3px #999;
+}
+
+.center{
+	text-align: center;
+}
+
+div{
+	
+	font-family: 'Sulphur Point', sans-serif;
+	font-size:xx-large;
+	font-variant:small-caps;
+	font-weight:bold;
+	color:white;
+	
+	text-align:center;
+	line-height:100px;
+	
+	
+	width:auto;
+	height:100px;
+	margin-left: 100px;
+	margin-right: 100px;
+	
+	border-radius:20px;
+	background-color:red;
+	
+}
+div#patrimoine{
+	background-image: url(images/albi.jpg);
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: auto;
+	
+
+}
+
+div#emprunt{
+	background-image: url(images/emprunt.jpg) ;
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	width: auto;
+	color:black;
+}
+
+div#comptes{
+	background-image: url(images/comptes.jpg) ;
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	width: auto;
+}
+
+
+
+/* .gauche{	 */
+/* 	margin-left: 100px; */
+
+/* } */
+
+/* .droite{ */
+/* 	margin-right: 100px; */
+/* } */
+
+/* .haut{ */
+/* 	margin-top: 500px; */
+/* } */
+
+/* .bas{ */
+/* 	margin-bottom: 500px; */
+/* } */
+
+.menu {
+width:auto;
+height:auto;
+margin-left: 0px;
+margin-right: 0px;
+
+display:inline-block;
+background-color: initial;
+display: -webkit-flex; /* Safari */
+  -webkit-align-items: center; /* Safari 7.0+ */
+  display: inline-block;
+/*   flex; */
+/*   align-items: center; */
+}
+
+.smenu{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.liste-droite{
+	height: 500px;
+}

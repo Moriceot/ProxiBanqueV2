@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="SytleSheet" href="css/format.css"/>
+		<link rel="StyleSheet" href="format.css"/>
 		<meta charset="UTF-8">
 		<title>Accueil ProxiBanque</title>
 		
 	</head>
 	<body>
-		<h1>ProxiBanque</h1>
-		<h2>Bienvenue chez ProxiBanque, une banque proche de ses clients!</h2>
-		<p>Accéder à votre espace personnel <br>
-			<input type="button" name="client" value="Espace client"><br>
-			<input type="button" name="pro" value="Espace professionnel"><br>
-		</p>
+		<h1 class="center">ProxiBanque</h1>
+		
+		<header>
+			<h2 class="center">Bienvenue chez ProxiBanque, une banque proche de ses clients!
+				<input type="button" name="client" value="Espace client" >
+				<input type="button" name="pro" value="Espace professionnel" onclick="self.location.href='connection.html'">
+			</h2>
+		</header>
+		<div id="patrimoine" onclick="self.location.href='connection.html'"> Gestion de patrimoine</div><br>
+		<div id="emprunt"> Simulation d'emprunt</div><br>
+		<div id="comptes"> Gestion de vos comptes</div><br>
 	</body>
 </html>
